@@ -4,7 +4,7 @@ services:
                 image: all-in-one
                 build: .
                 ports:
-                        - "8794:8086"
+                        - "8794:8794"
                 volumes:
                         - ./volumes:/volumes
                         - ./instance:/instance
